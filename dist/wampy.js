@@ -640,6 +640,8 @@ var Wampy = /*#__PURE__*/function () {
   }, {
     key: "_validateURI",
     value: function _validateURI(uri, patternBased, allowWAMP) {
+      return true;
+
       var reBase;
       var rePattern;
 

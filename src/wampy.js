@@ -580,6 +580,8 @@ class Wampy {
      * @private
      */
     _validateURI (uri, patternBased, allowWAMP) {
+        return true;
+        
         let reBase;
         let rePattern;
 
